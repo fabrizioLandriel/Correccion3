@@ -5,11 +5,13 @@
     box-sizing: border-box;
 }
 
-
-//importamos 
+//importamos los archivos secundarios
 @import "utilidades/variables";
+@import "utilidades/mixin";
+@import "utilidades/extend";
+@import "./html/index";
+@import "html/pageUno.scss";
+@import "html/pageDos.scss";
+@import "html/pageTres.scss";
+@import "html/pageCuatro.scss";
 
-
-$color-texto {
-    color: red;
-}
