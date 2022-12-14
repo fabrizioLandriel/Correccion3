@@ -36,52 +36,72 @@ header{
     }
 }
 
-.bodyPageCuatro{
-        background-color: $bgColorPageCuatro;
-    
-    .pTextoCarrusel{
-        font-size: 2.5rem;
-        text-align: $jcCenter;
-        text-decoration: underline;
-    }
-    .carruselPageCuatro{
-        display: flex;
-        justify-content: $jcCenter;    
-        padding-bottom: 2rem;
-            div{
-                div{
-                    img{
-                    }
-                }
-                div{
-                    img{
-                    }
-                }
-                div{
-                    img{
-                    }
-                }
-            }
+main{
 
-            button{
-                span{
+    .bodyPageCuatro{
+            background-color: $bgColorPageCuatro;
+        
+        .pTextoCarrusel{
+            font-size: 2.5rem;
+            text-align: $jcCenter;
+            text-decoration: underline;
+        }
+        .carruselPageCuatro{
+            display: flex;
+            justify-content: $jcCenter;    
+            padding-bottom: 2rem;
+                div{
+                    div{
+                        img{
+                        }
+                    }
+                    div{
+                        img{
+                        }
+                    }
+                    div{
+                        img{
+                        }
+                    }
                 }
-            }
-            button{
-                span{
+
+                button{
+                    span{
+                    }
+                }
+                button{
+                    span{
+                    }
                 }
             }
         }
+        
+        .codigoDescuento{
+            display: flex;
+            justify-content: $jcCenter;
+            .codigoDescuentoImg {
+                border-radius: 2rem;
+                width: 35%;
+                height: 35%;
+                margin-bottom: 1rem;
+            }
+        }
     }
-    
-    .codigoDescuento{
-        display: flex;
-        justify-content: $jcCenter;
-        .codigoDescuentoImg {
-            border-radius: 2rem;
-            width: 35%;
-            height: 35%;
-            margin-bottom: 1rem;
+}
+
+footer{
+    div{
+        a{
+        img{
+        }
+        }
+        a{
+        img{
+        }
+        }
+        a{
+        img{
+        }
         }
     }
 }
