@@ -11,6 +11,12 @@
   align-items: center; }
 
   /*MQ, ESTILOS DE LA PAGE UNO*/
+.paginaPrincipal{
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2rem; 
+}
+
 main .divTextoRemeras {
   text-align: center;
   text-decoration: underline;
@@ -57,11 +63,11 @@ main .divPantalones {
   main .divPantalones .imagenes {
     width: 16rem; }
 
-footer h3 {
+.footerHome {
   background-color: black;
   color: white;
   text-align: center;
-  margin: 0px 0px 0px 0px; }
+  margin: .3rem 0px 0px 0px; }
 
 @media screen and (min-width: 992px) {
   main .h1PageUno {
@@ -157,6 +163,7 @@ footer h3 {
     flex-direction: column;
     align-items: center; } }
 
+/* ESTILOS DEL FORM */
 main .formPageDos {
   display: grid;
   grid-template-areas: 'form';
@@ -287,10 +294,6 @@ main .divParrafoPageDos {
   
   main .bodyPageCuatro {
     background-color: #a7a7a7; }
-    main .bodyPageCuatro .pTextoCarrusel {
-      font-size: 2.5rem;
-      text-align: center;
-      text-decoration: underline; }
     main .bodyPageCuatro .carruselPageCuatro {
       display: flex;
       justify-content: center;
@@ -377,7 +380,7 @@ main .divParrafoPageDos {
     .card {
       margin: .5rem 0rem .5rem 0rem;
     }
-    }
+}
       
 
 
@@ -404,4 +407,17 @@ main .divParrafoPageDos {
 
 .imagenesRedesSociales{
   border-radius: 60px;
+  width: 2.7rem;
+}
+
+/* ESTILOS DEL LOGOTIPO */
+.logotipo{
+  width: 5rem;
+  margin-right: .5rem;
+  padding: .2rem .2rem .2rem .2rem ;
+}
+
+.logotipo:hover{
+  width: 5.5rem;
+  transition-duration: .1s;
 }
